@@ -61,6 +61,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # backend/settings.py
 
