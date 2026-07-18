@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate, Link, useNavigate } from 'react
 import html2pdf from 'html2pdf.js'
 const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
   ? 'http://127.0.0.1:8000'
-  : 'https://onrender.com'; // We will name your backend service this in Step 3
+  : 'https://airesume-backend-45ha.onrender.com'; // We will name your backend service this in Step 3
 
 /* ==========================================
    1. SIGN UP COMPONENT
